@@ -1,9 +1,19 @@
 {
   "compilerOptions": {
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "tags": [
+          "styled",
+          "css",
+          "sty"
+        ]
+      }
+    ],
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
-    "skipLibCheck": true,
+    "skipLibCheck": false,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
